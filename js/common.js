@@ -27,6 +27,8 @@ $(function() {
           return false;
       });
 
+      $("button.amoforms__submit-button").removeAttr("style")
+
 
 
 });
@@ -43,3 +45,4 @@ $(function() {
     else{if(w.attachEvent){w.attachEvent('onload',l);}
     else{w.addEventListener('load',l,false);
     }}})();
+
